@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentation projet Puissance 4 </title>
+
+    <link rel="stylesheet" href="puissance4.css">
+
+</head>
+<body id="top">
+<div class="wrapper row1">
+
+    <header role="banner" id="header" class="clear">
+        <img src="https://i2.cdscdn.com/pdt2/8/5/8/1/300x300/auc9145341682858/rw/jeu-de-societe-puissance-4-jeu-de-strategie-ve.jpg"
+             alt="image jeu puissance4" width="100" height="100" align="bottom">
+        <h1 class="uppercase">Documentation</h1>
+        <p>
+        <h3>Puissance 4 project</h3></p>
+    </header>
+</div>
+
+<div class="wrapper row2">
+    <nav role="navigation" id="topnav" class="clear">
+        <ul>
+            <li class="active">
+                <a href="#Description">Description</a></li>
+            <li>
+                <a href="#Conception">Conception</a></li>
+            <li>
+                <a href="#Code source">Code source</a></li>
+            <li>
+                <a href="#Rendu final">Rendu final</a></li>
+        </ul>
+    </nav>
+</div>
+
+<main>
+    <ul>
+        <h2 id="Description"><a href="#Description">Descritpion</a></h2>
+        <p>Le but du jeu est d'aligner une suite de 4 pions de même couleur sur une grille comptant 6 rangées et 7
+            colonnes (voir
+            <a href="https://fr.wikipedia.org/wiki/Puissance_4">Wikipedia</a>). Chaque joueur dispose de 21 pions d'une
+            couleur (par convention, en général jaune ou rouge). Tour à tour, les deux joueurs placent un pion dans la
+            colonne de leur choix, le pion coulisse alors jusqu'à la position la plus basse possible dans la dite
+            colonne à la suite de quoi c'est à l'adversaire de jouer. Le vainqueur est le joueur qui réalise le premier
+            un alignement (horizontal, vertical ou diagonal) consécutif d'au moins quatre pions de sa couleur. Si, alors
+            que toutes les cases de la grille de jeu sont remplies, aucun des deux joueurs n'a réalisé un tel
+            alignement, la partie est déclarée nulle.</p>
+
+        <h2 id="Conception"><a href="#Conception">Conception</a></h2>
+        <p> Je devais réaliser un programme Java en mode console permettant de jouer au jeu de plateau Puissance 4. J'ai
+            donc commencer par découper le jeu en plusieurs étapes clé à savoir :
+        <li class="Conception-list">
+            Définir ma matrice de jeu dans un tableau de 6 lignes et 7 colonnes ;
+        </li>
+        <li>Afficher mon plateau de jeu ;</li>
+        <li>Délimiter le plateau de jeu ;</li>
+        <li>Définir le nombre de joueur et faire une boucle "for" permettant de passer du joueur 1 au joueur 2 après
+            chaque coup joué ;
+        </li>
+        <li>Récupérer la colonne où on veut jouer et vérifier qu'on est dans le plateau ou hors du plateau de jeu ;</li>
+        <li>Vérifier si le dernier coup du joueur est gagnant (aligner 4 pions de la même couleur, verticalement,
+            horizonatlement ou en diagonale).
+        </li>
+
+        </li></p>
+
+        <h2 id="Code source"><a href="#Code source">Code Source</a</h2>
+        <ul>
+            <p><a href="https://raw.githubusercontent.com/jlsgrand/java-project-puissance4-nat/main/src/co/simplon/Main.java">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                 align="left" width="200" height="200">
+            </a></p>
+        </ul>
+
+        <h2 id="Rendu final"><a href="#Rendu final">Rendu final</a</h2>
+        <div class="wrapper row5">
+        <p>Cliquez dans la vidéo ci-dessous pour voir mon rendu final </p>
+        </div>
+       <p> <video controls width="450">
+        <source src="P4.mp4" type="video/mp4" align="center">
+        </video></p>
+    </ul>
+
+    <div class="wrapper row5">
+        <div class="footer">
+            <footer role="contentinfo" id="p-footer" class="clear"></footer>
+            <p><h5>Valéry Garrec</h5></p>
+            <p class="right-align"><h5>© 2021 Copyright</h5></p>
+        </div>
+        <a href="#top" id="scrolltotop" title="Back to top" class="visible">
+    <span class="icon-arrow-up icon 2x">
+        </span>
+        </a>
+    </div>
+</main>
+
+</body>
+</html>
