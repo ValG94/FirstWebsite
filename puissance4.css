@@ -1,0 +1,170 @@
+body, .row5, .row5 a {
+    color: #999;
+    background-color: #232323;
+}
+
+img {
+    alignment: left;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+element.style {
+}
+
+@media screen and (min-width: 180px) and (max-width: 615px)
+    #topbar, #header {
+        text-align: center;
+    }
+
+    @media screen and (min-width: 180px) and (min-width: 360px)
+        #topbar, #header, #topnav, #pageintro, .container, #p-footer, #copyright {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+        #header {
+            padding: 30px 0 50px;
+            text-align: center;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        body .wrapper {
+            display: block;
+            width: 100%;
+            margin: 1;
+            padding: 1;
+            word-wrap: break-word;
+        }
+
+        .row2 {
+            border: solid #222;
+            border-width: 1px 0;
+            background: #292929;
+            background-image: linear-gradient(to bottom, #313131 0%, #292929 100%);
+            box-shadow: 0 1px 3px rgb(0 0 0 /60%);
+        }
+
+        #topnav {
+            padding: 30px 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        #topnav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 16px;
+        }
+
+        #topnav li.active a, #topnav a:hover {
+            color: #999;
+            background: inherit;
+        }
+
+        #topnav a {
+            color: #999;
+            background: inherit;
+        }
+
+        a, :focus, :active {
+            color: #DF7879;
+            text-decoration: none;
+            outline: none;
+        }
+
+        #p-footer {
+
+            padding: 30px 0;
+            background-color: #232323;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+
+        .clear {
+            display: block;
+            clear: both;
+        }
+
+        #scrolltotop.visible {
+            transition: all .8s ease-in-out;
+            visibility: visible;
+            opacity: 0.5;
+        }
+
+        #scrolltotop {
+            color: #FFF;
+            background-color: #DF7879;
+        }
+
+        scrolltotop {
+            position: fixed;
+            bottom: 60px;
+            right: 5px;
+            padding: 14px 10px 5px;
+            z-index: 999999;
+            line-height: normal;
+            border-radius: 8px;
+        }
+
+        nav {
+            margin: 0px;
+            padding-left: 20px;
+            width: 100%;
+            margin: 0 auto;
+            position: sticky;
+            top: 0px;
+        }
+
+        nav > ul li {
+            float: left;
+            width: 25%;
+            text-align: center;
+        }
+
+
+        main {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            alignment: top;
+            font-family: Arial, sans-serif;
+            text-align: -webkit-left;
+
+        }
+
+        .conception-list {
+            list-style-type: disc;
+        }
+
+        ul > h2 {
+            margin-bottom: 0px;
+            display: flex;
+            text-transform: uppercase;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #DF7879;
+        }
+
+        main > p {
+            text-align: -webkit-left;
+            text-rendering: optimizeLegibility;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+.right-align{
+    text-align: right;
+}
